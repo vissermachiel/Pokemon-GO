@@ -1,0 +1,20 @@
+CREATE DATABASE pokemongo;
+
+USE pokemongo;
+
+CREATE TABLE pokemon (
+	Number INT,
+	Pokemon VARCHAR(20),
+  Type_1 ENUM('Bug', 'Dark', 'Dragon', 'Electric', 'Fairy', 'Fighting', 
+              'Fire', 'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 
+              'Normal', 'Poison', 'Psychic', 'Rock', 'Steel', 'Water'),
+  Type_2 ENUM('', 'Bug', 'Dark', 'Dragon', 'Electric', 'Fairy', 'Fighting', 
+              'Fire', 'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 
+              'Normal', 'Poison', 'Psychic', 'Rock', 'Steel', 'Water'),
+  CP INT,
+	Attack INT,
+	Defense INT,
+	Stamina INT,
+	Generation INT,
+	PRIMARY KEY(Number, Pokemon)
+);
