@@ -26,3 +26,15 @@ CREATE TABLE fastmoves (
 	DPS_times_EPS DECIMAL(5,2),
 	PRIMARY KEY(Fast_move)
 );
+
+CREATE TABLE chargemoves (
+	Charge_move VARCHAR(20),
+	Type ENUM('Bug', 'Dark', 'Dragon', 'Electric', 'Fairy', 'Fighting', 'Fire', 'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic', 'Rock', 'Steel', 'Water'),
+	Power INT,
+	Energy INT,
+	Cooldown DECIMAL(3,2),
+	Damage_per_second DECIMAL(4,2),
+	Energy_per_second DECIMAL(4,2),
+	Damage_per_energy DECIMAL(3,2),
+	PRIMARY KEY(Charge_move)
+);
