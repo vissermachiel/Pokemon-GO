@@ -94,7 +94,7 @@ INSERT INTO pokemon VALUES(79, 'Slowpoke', 'Water', 'Psychic', 1226, 109, 98, 20
 INSERT INTO pokemon VALUES(80, 'Slowbro', 'Water', 'Psychic', 2545, 177, 180, 216, 1);
 INSERT INTO pokemon VALUES(81, 'Magnemite', 'Electric', 'Steel', 1362, 165, 121, 93, 1);
 INSERT INTO pokemon VALUES(82, 'Magneton', 'Electric', 'Steel', 2485, 223, 169, 137, 1);
-INSERT INTO pokemon VALUES(83, 'Farfetchd', 'Normal', 'Flying', 1236, 124, 115, 141, 1);
+INSERT INTO pokemon VALUES(83, "Farfetch'd", 'Normal', 'Flying', 1236, 124, 115, 141, 1);
 INSERT INTO pokemon VALUES(84, 'Doduo', 'Normal', 'Flying', 1200, 158, 83, 111, 1);
 INSERT INTO pokemon VALUES(85, 'Dodrio', 'Normal', 'Flying', 2362, 218, 140, 155, 1);
 INSERT INTO pokemon VALUES(86, 'Seel', 'Water', '', 971, 85, 121, 163, 1);
