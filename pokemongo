@@ -15,8 +15,14 @@ CREATE TABLE pokemon (
 	PRIMARY KEY(Number, Pokemon)
 );
 
+CREATE TABLE pokemon_moves (
+	Pokemon VARCHAR(20),
+	Move VARCHAR(20),
+	PRIMARY KEY(Pokemon, Move)
+);
+
 CREATE TABLE fastmoves (
-	Fast_move VARCHAR(20),
+	Move VARCHAR(20),
 	Type ENUM('Bug', 'Dark', 'Dragon', 'Electric', 'Fairy', 'Fighting', 'Fire', 'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic', 'Rock', 'Steel', 'Water'),
 	Power INT,
 	Energy INT,
@@ -24,11 +30,11 @@ CREATE TABLE fastmoves (
 	Damage_per_second DECIMAL(4,2),
 	Energy_per_second DECIMAL(4,2),
 	DPS_times_EPS DECIMAL(5,2),
-	PRIMARY KEY(Fast_move)
+	PRIMARY KEY(Move)
 );
 
 CREATE TABLE chargemoves (
-	Charge_move VARCHAR(20),
+	Move VARCHAR(20),
 	Type ENUM('Bug', 'Dark', 'Dragon', 'Electric', 'Fairy', 'Fighting', 'Fire', 'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic', 'Rock', 'Steel', 'Water'),
 	Power INT,
 	Energy INT,
@@ -36,11 +42,11 @@ CREATE TABLE chargemoves (
 	Damage_per_second DECIMAL(4,2),
 	Energy_per_second DECIMAL(4,2),
 	Damage_per_energy DECIMAL(3,2),
-	PRIMARY KEY(Charge_move)
+	PRIMARY KEY(Move)
 );
 
 CREATE TABLE fastmoves_pvp (
-	Fast_move VARCHAR(20),
+	Move VARCHAR(20),
 	Type ENUM('Bug', 'Dark', 'Dragon', 'Electric', 'Fairy', 'Fighting', 'Fire', 'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic', 'Rock', 'Steel', 'Water'),
 	Power INT,
 	Energy INT,
@@ -48,11 +54,11 @@ CREATE TABLE fastmoves_pvp (
 	Damage_per_turn DECIMAL(4,2),
 	Energy_per_turn DECIMAL(4,2),
 	DPT_times_EPT DECIMAL(4,2),
-	PRIMARY KEY(Fast_move)
+	PRIMARY KEY(Move)
 );
 
 CREATE TABLE chargemoves_pvp (
-	Charge_move VARCHAR(20),
+	Move VARCHAR(20),
 	Type ENUM('Bug', 'Dark', 'Dragon', 'Electric', 'Fairy', 'Fighting', 'Fire', 'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic', 'Rock', 'Steel', 'Water'),
 	Power INT,
 	Energy INT,
@@ -60,5 +66,5 @@ CREATE TABLE chargemoves_pvp (
 	Damage_per_turn DECIMAL(4,2),
 	Energy_per_turn DECIMAL(4,2),
 	Damage_per_energy DECIMAL(3,2),
-	PRIMARY KEY(Charge_move)
+	PRIMARY KEY(Move)
 );
