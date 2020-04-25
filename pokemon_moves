@@ -173,6 +173,7 @@ INSERT INTO pokemon_moves VALUES("Abra", "Charge Beam");
 INSERT INTO pokemon_moves VALUES("Abra", "Zen Headbutt");
 INSERT INTO pokemon_moves VALUES("Kadabra", "Confusion");
 INSERT INTO pokemon_moves VALUES("Kadabra", "Psycho Cut");
+INSERT INTO pokemon_moves VALUES("Alakazam", "Counter");
 INSERT INTO pokemon_moves VALUES("Alakazam", "Confusion");
 INSERT INTO pokemon_moves VALUES("Alakazam", "Psycho Cut");
 INSERT INTO pokemon_moves VALUES("Machop", "Karate Chop");
