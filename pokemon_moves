@@ -1234,6 +1234,12 @@ INSERT INTO pokemon_moves VALUES("Arceus (Water)", "Iron Tail");
 INSERT INTO pokemon_moves VALUES("Arceus (Water)", "Shadow Claw");
 INSERT INTO pokemon_moves VALUES("Meltan", "Thunder Shock");
 INSERT INTO pokemon_moves VALUES("Melmetal", "Thunder Shock");
+INSERT INTO pokemon_moves VALUES("Obstagoon", "Counter");
+INSERT INTO pokemon_moves VALUES("Obstagoon", "Lick")
+INSERT INTO pokemon_moves VALUES("Perrserker", "Metal Claw");
+INSERT INTO pokemon_moves VALUES("Perrserker", "Shadow Claw");
+INSERT INTO pokemon_moves VALUES("Sirfetch'd", "Counter");
+INSERT INTO pokemon_moves VALUES("Sirfetch'd", "Fury Cutter");
 
 INSERT INTO pokemon_moves VALUES("Bulbasaur", "Power Whip");
 INSERT INTO pokemon_moves VALUES("Bulbasaur", "Seed Bomb");
@@ -3126,3 +3132,16 @@ INSERT INTO pokemon_moves VALUES("Melmetal", "Hyper Beam");
 INSERT INTO pokemon_moves VALUES("Melmetal", "Rock Slide");
 INSERT INTO pokemon_moves VALUES("Melmetal", "Thunderbolt");
 INSERT INTO pokemon_moves VALUES("Melmetal", "Superpower");
+INSERT INTO pokemon_moves VALUES("Obstagoon", "Cross Chop");
+INSERT INTO pokemon_moves VALUES("Obstagoon", "Gunk Shot");
+INSERT INTO pokemon_moves VALUES("Obstagoon", "Hyper Beam");
+INSERT INTO pokemon_moves VALUES("Obstagoon", "Night Slash");
+INSERT INTO pokemon_moves VALUES("Perrserker", "Close Combat");
+INSERT INTO pokemon_moves VALUES("Perrserker", "Foul Play");
+INSERT INTO pokemon_moves VALUES("Perrserker", "Iron Head");
+INSERT INTO pokemon_moves VALUES("Perrserker", "Play Rough");
+INSERT INTO pokemon_moves VALUES("Sirfetch'd", "Brave Bird");
+INSERT INTO pokemon_moves VALUES("Sirfetch'd", "Close Combat");
+INSERT INTO pokemon_moves VALUES("Sirfetch'd", "Leaf Blade");
+INSERT INTO pokemon_moves VALUES("Sirfetch'd", "Night Slash");
+
